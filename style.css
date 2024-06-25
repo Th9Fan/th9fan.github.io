@@ -1,0 +1,58 @@
+html{
+    --headerBG:rgb(255, 255, 255);
+    /* var(--c1); */
+    --headerTX:rgb(255, 255, 255);
+    /* var(--c2); */
+    --c3:rgb(2, 86, 140);
+    /* var(--c3); */
+    --c4:rgb(2, 103, 140);
+    /* var(--c4); */
+}
+
+
+body {
+    background-image: url("https://vignette.wikia.nocookie.net/mems/images/3/37/Epic_troll_face_wallpapers.png/revision/latest/scale-to-width-down/2000?cb=20150323132936&path-prefix=ru");
+    background-repeat: no-repeat;
+    background-size:cover;
+    padding: 0px;
+    margin: 0px;
+    /* background-size: 800px; */
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    font-size: 50px;
+    background-color: var(--headerBG);
+    color: var(--headerTX);
+}
+header p {
+    margin: 0px;
+}
+
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+}
+#footer{
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    padding: 3vw;
+    width: 94vw;
+    margin: 0px;
+    
+}
+.block{
+    background-color: rgb(255, 255, 255);
+    padding:5% 8%;
+    width: 4%;
+    height: 5%;
+}
+.upgrade{
+    border: 5px solid rgb(255, 255, 255) ;
+    padding: 0px 10px;
+    margin: 0px 10px;
+}
